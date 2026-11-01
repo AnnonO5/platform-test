@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://vi886b2mgr3c"]
+
+[ext_resource type="PackedScene" uid="uid://d20ug40rb0x0j" path="res://Scenes/player.tscn" id="1_vuu4b"]
+
+[node name="Level_00" type="Node2D" unique_id=1796996092]
+
+[node name="World" type="Node2D" parent="." unique_id=616443917]
+
+[node name="BackGround" type="TileMapLayer" parent="World" unique_id=9690753]
+
+[node name="MidGround" type="TileMapLayer" parent="World" unique_id=979830540]
+
+[node name="ForGround" type="TileMapLayer" parent="World" unique_id=1228666148]
+
+[node name="Player" parent="." unique_id=1731629167 instance=ExtResource("1_vuu4b")]
